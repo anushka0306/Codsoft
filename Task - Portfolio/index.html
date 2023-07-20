@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka's Portfolio</title>
+  <style>
+    body {
+      background-color: #dbd8bf;
+      font-family: Courier, monospace;
+      color: #6b6b55;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #dbd8bf;
+      padding: 20px;
+      text-align: center;
+      color: #e78872;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #dbd8bf;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      color: #808060;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    section {
+      margin-bottom: 30px;
+    }
+    
+    .profile-picture {
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card {
+      background-color: #e78872;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .card-image {
+      flex: 0 0 auto;
+      margin-right: 20px;
+    }
+    
+    .card-image img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .card-content {
+      flex: 1;
+    }
+    
+    .card-title {
+      margin: 0;
+    }
+    
+    .card-description {
+      margin-top: 10px;
+      font-size: 14px;
+      color: white;
+    }
+
+    .contact-section {
+      position: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-section h2 {
+      margin-top: 0;
+    }
+    
+    .contact-section p {
+      margin-bottom: 10px;
+    }
+    
+    .social-icons {
+      display: flex;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    
+    footer p {
+      margin: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+
+     <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="resume.pdf" class="resume" download>Resume</a></li>
+      </ul>
+    </nav>
+
+    <h1>Anushka's Portfolio</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2> <u> About Me</u></h2>
+      <img src="profile.jpeg" alt="Profile Picture" class="profile-picture">
+      <p>
+        Hello! I'm Anushka, a B.Tech student majoring in Computer Science and Engineering at Tulas Institute. I am passionate about coding and love working on challenging projects. With a strong foundation in programming and problem-solving skills, I strive to create efficient and innovative solutions.
+      </p>
+    </section>
+
+    <section>
+      <h2> <u>Skills</u></h2>
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Web Development</h3>
+          <p class="card-description">Proficient in HTML, CSS, and JavaScript. Experienced in developing responsive and user-friendly web applications.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Programming Languages</h3>
+          <p class="card-description">Skilled in Java, Python, and C++. Familiar with data structures, algorithms, and software development methodologies.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3 class="card-title">Database Management</h3>
+          <p class="card-description">Knowledgeable in SQL and database design principles. Experienced in working with MySQL and PostgreSQL.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><u>Projects</u></h2>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://images04.nicepage.com/feature/612016/ecommerce-websites.jpg" alt="Project 1">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">E-commerce Website</h3>
+          <p class="card-description">Developed a responsive e-commerce website using HTML, CSS, and JavaScript. Integrated payment gateway for secure transactions.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.questionpro.com/blog/wp-content/uploads/2018/05/Quantitative-data_2_FI.jpg" alt="Project 2">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Data Analysis Tool</h3>
+          <p class="card-description">Built a data analysis tool in Python using pandas and matplotlib libraries. Implemented various statistical models for data visualization and insights.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="https://cdn.dribbble.com/users/2942570/screenshots/7471899/proto-quiz.png" alt="Project 3">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Online Quiz Application</h3>
+          <p class="card-description">Created an online quiz application using Java and MySQL. Implemented user authentication, question randomization, and result generation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="contact-section">
+    <h2><u>Contact Me:</u></h2>
+    <p>Email: anushkao946@gmail.com</p>
+    <p>Phone: +123456789</p>
+    <p>Address: Dhulkoot Mafi, Dehradun - 248011</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/" target="_blank"><img src="https://img.freepik.com/premium-vector/vinnytsia-ukraine-april-27-2023-popular-social-media-icon-instagram-vector-design_545793-1681.jpg"  width="35px" height="35px"  alt="Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" width="30px" height="30px" alt="Facebook"></a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Anushka's Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
