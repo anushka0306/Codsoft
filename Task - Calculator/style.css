@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #d4d4d4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator input {
+    grid-column: 1 / span 4;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .calculator button:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .calculator button:active {
+    background-color: #ccc;
+  }
+  
